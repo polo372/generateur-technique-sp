@@ -202,4 +202,5 @@ const techniques = [
         {technique}
       </div>
   </div>
+  <a class="mail"href="mailto:pbd@laposte.net">Suggérer une amélioration ?</a>
 </main>
