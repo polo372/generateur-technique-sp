@@ -196,11 +196,11 @@ const techniques = [
 <main>
   <h1>Générateur de Technique</h1>
   <div class="container">
-      <p>Cliquez sur le bouton pour générer une technique</p>
+      <div class="text"><p>Cliquez sur le bouton pour générer une technique</p></div>
       <button on:click={() => {technique = genererTechnique()}}>Générer</button>
       <div class="result">
         {technique}
       </div>
   </div>
-  <a class="mail"href="mailto:pbd@laposte.net">Suggérer une amélioration ?</a>
+  <div class=mail><a href="mailto:pbd@laposte.net">Suggérer une amélioration ?</a></div>
 </main>

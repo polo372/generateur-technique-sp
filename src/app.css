@@ -64,8 +64,16 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+.text{
+  margin-bottom: 5%;
+}
+.result{
+  margin-top: 5%;
+  font-size: 150%;
+
+}
 .mail{
-  margin-top: 3%;
+  margin-top: 10%;
 }
 @media (prefers-color-scheme: light) {
   :root {
