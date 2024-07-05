@@ -3,11 +3,11 @@
   const techniques = [
 
       
-  { name: "ETB1-Ldt", pdf: "/ETB1-Ldt.pdf" },
-  { name: "ETB2-Prise d'eau", pdf: "/ETB2-Prise d'eau.pdf" },
-  { name: "ETB3-Lance", pdf: "/ETB3-Lance.pdf" },
-  { name: "ETB4-Alimentation", pdf: "/ETB4-Alimentation.pdf" },
-  { name: "ETB5-Etablissement particuliers", pdf: "/ETB5-Etablissement particuliers.pdf" },
+  { name: "ETB1-Ldt", pdf: "ETB1-Ldt.pdf" },
+  { name: "ETB2-Prise d'eau", pdf: "ETB2-Prise d'eau.pdf" },
+  { name: "ETB3-Lance", pdf: "ETB3-Lance.pdf" },
+  { name: "ETB4-Alimentation", pdf: "ETB4-Alimentation.pdf" },/*
+  { name: "ETB5-Etablissement particuliers", pdf: "ETB5-Etablissement particuliers.pdf" },
   { name: "ETB6-Prolongement/remplacement", pdf: "/ETB6-Prolongement/remplacement.pdf" },
   { name: "TDE1-Refroidissement des fumées", pdf: "/TDE1-Refroidissement des fumées.pdf" },
   { name: "TDE2-Extinction directe", pdf: "/TDE2-Extinction directe.pdf" },
@@ -223,7 +223,7 @@
 { name: "Aspiration avec pompe électrique", pdf: "/Aspiration avec pompe électrique.pdf" },
 { name: "Capture de serpent", pdf: "/Capture de serpent.pdf" },
 { name: "Capture d'animaux au moyen du lasso", pdf: "/Capture d'animaux au moyen du lasso.pdf" },
-{ name: "Assèchement avec aspirateur", pdf: "/Assèchement avec aspirateur.pdf" },*/
+{ name: "Assèchement avec aspirateur", pdf: "Assèchement avec aspirateur.pdf" },*/
   // Ajoutez plus de techniques selon vos besoins
           ];
   
