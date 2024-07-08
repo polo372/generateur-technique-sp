@@ -185,6 +185,12 @@
   { name: "Ceinturon d'intervention", pdf: "Ceinturon d'intervention.pdf" },
   { name: "Communication opérationnel-utilisation des radios", pdf: "Communication opérationnel-utilisation des radios.pdf" },
   { name: "Secours éléctrique du CIS", pdf: "Secours éléctrique du CIS.pdf" },
+  { name: "Le repli d'urgence (FDF)", pdf: "Le repli d'urgence (FDF).pdf" },
+  { name: "Etablissement de la LDT (FDF)", pdf: "Etablissement de la LDT (FDF).pdf" },
+  { name: "L’établissement d’une lance 500 /d’une prise d’eau jusqu’à 120 mètres (FDF)", pdf: "etablissement d’une lance 500 (FDF).pdf" },
+  { name: "La transformation d’une lance 500 en 2 lances 150 sans prolongement (FDF)", pdf: "La transformation d’une lance 500 en 2 lances 150 sans prolongement (FDF).pdf" },
+  { name: "Le prolongement d’une lance 500 (FDF)", pdf: "Le prolongement d’une lance 500 (FDF).pdf" },
+  { name: "La transformation d’une lance 500 en 2 lances 150 après prolongement (FDF)", pdf: "La transformation d’une lance 500 en 2 lances 150 après prolongement (FDF).pdf" },
   /*
 { name: "Transfert d’une victime méthode de la cuillère", pdf: "Transfert d’une victime méthode de la cuillère.pdf" },
 { name: "Déshabiller un sauveteur inconscient tenue de feu", pdf: "Déshabiller un sauveteur inconscient tenue de feu.pdf" },
