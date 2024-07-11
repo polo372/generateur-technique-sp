@@ -1,8 +1,13 @@
 <script lang="ts">
-  
   const techniques = [
-
-      
+    { name: "Utilisation du halligan-tool", 
+      pdf: "Utilisation du halligan-tool sdis37.pdf",
+    documents: [
+        { name: "Halligan Tool", url: "Halligan Tool.pdf" }
+      ]
+     },
+  { name: "Mise en place d'un groupe électrogène", iframe: "https://www.youtube.com/embed/aydVCwnWJII?si=GvSX5WT_lSbVdUKH" },
+  { name: "Aspiration du bache à incendie", iframe: "https://youtu.be/WI0d4eRLuxM?si=-kJP-bDTM8jo8q6j" },
   { name: "ETB1-Ldt", pdf: "ETB1-Ldt.pdf" },
   { name: "ETB2-Prise d'eau", pdf: "ETB2-Prise d'eau.pdf" },
   { name: "ETB3-Lance", pdf: "ETB3-Lance.pdf" },
@@ -101,10 +106,7 @@
   { name: "Inhalation d’oxygène (masque haute concentration)", pdf: "Administration d’oxygène par inhalation.pdf" },
   { name: "Utilisation d’une bouteille d’oxygène", pdf: "Utilisation d’une bouteille d’oxygène.pdf" },
   { name: "Réchauffement d'une victime", pdf: "Réchauffement d'une victime.pdf" },
-  { name: "Position d’attente à plat dos", pdf: "Position d’attente.pdf" },
-  { name: "Position d’attente assise ou demi-assise", pdf: "Position d’attente.pdf" },
-  { name: "Position d’attente sur le côté", pdf: "Position d’attente.pdf" },
-  { name: "Position d’attente cuisses fléchies, jambes repliées", pdf: "Position d’attente.pdf" },
+  { name: "Les différentes positions d'attente", pdf: "Position d’attente.pdf" },
   { name: "Aide à la prise de médicaments", pdf: "Aide à la prise de médicaments.pdf" },
   { name: "Manoeuvres physiques", pdf: "Manoeuvres physiques.pdf" },
   { name: "Soin au cordon", pdf: "Soin au cordon.pdf" },
@@ -173,14 +175,14 @@
   { name: "Utilisation de la pompe de l'explosimètre Altair 4X", pdf: "Utilisation de la pompe de l'explosimètre Altair 4X.pdf" },
   { name: "Rideau stoppeur de fumée", pdf: "Rideau stoppeur de fumée.pdf" },
   { name: "Utilisation des lances", pdf: "Utilisation des lances.pdf" },
-  { name: "Utilisation du halligan-tool", pdf: "Utilisation du halligan-tool.pdf" },
+
   { name: "Echelle 1 plan téléscopique", pdf: "Echelle 1 plan téléscopique.pdf" },
   { name: "Tuyaux avec réserve en spirale", pdf: "Tuyaux avec réserve en spirale.pdf" },
   { name: "Detecteur CO", pdf: "Detecteur CO.pdf" },
   { name: "Anti-vol VSAV", pdf: "Anti-vol VSAV.pdf" },
   { name: "Couteau à vêtement", pdf: "Couteau à vêtement.pdf" },
   { name: "Coussin de tête", pdf: "Coussin de tête.pdf" },
-  { name: "Pédimat", pdf: "Pédimat.pdf" },
+  { name: "Mise en place du pédimat", pdf: "Pédimat.pdf" },
   { name: "Corde flottante", pdf: "Corde flottante.pdf" },
   { name: "Ceinturon d'intervention", pdf: "Ceinturon d'intervention.pdf" },
   { name: "Communication opérationnel-utilisation des radios", pdf: "Communication opérationnel-utilisation des radios.pdf" },
@@ -191,16 +193,17 @@
   { name: "La transformation d’une lance 500 en 2 lances 150 sans prolongement (FDF)", pdf: "La transformation d’une lance 500 en 2 lances 150 sans prolongement (FDF).pdf" },
   { name: "Le prolongement d’une lance 500 (FDF)", pdf: "Le prolongement d’une lance 500 (FDF).pdf" },
   { name: "La transformation d’une lance 500 en 2 lances 150 après prolongement (FDF)", pdf: "La transformation d’une lance 500 en 2 lances 150 après prolongement (FDF).pdf" },
-  /*
+  { name: "Déshabiller un sauveteur inconscient en tenue de feu", pdf: "Déshabiller un sauveteur inconscient en tenue de feu.pdf" },
+  { name: "Extinction d'un feu de VL nouvelle énergie", pdf:"Extinction d'un feu de VL nouvelle énergie" },
+  { name: "Utilisation d'une tronçonneuse", pdf: "Utilisation d'une tronçonneuse.pdf" },
+
+/*
 { name: "Transfert d’une victime méthode de la cuillère", pdf: "Transfert d’une victime méthode de la cuillère.pdf" },
-{ name: "Déshabiller un sauveteur inconscient tenue de feu", pdf: "Déshabiller un sauveteur inconscient tenue de feu.pdf" },
+{ name: "Position d’attente assise ou demi-assise", pdf: "Position d’attente.pdf" },
+{ name: "Position d’attente sur le côté", pdf: "Position d’attente.pdf" },
+{ name: "Position d’attente cuisses fléchies, jambes repliées", pdf: "Position d’attente.pdf" },
 { name: "Optimisation du dispositif de ventilation", pdf: "Optimisation du dispositif de ventilation.pdf" },
-{ name: "Ventilation par entraînement d'air aux lances", pdf: "Ventilation par entraînement d'air aux lances.pdf" },
-{ name: "Rideau stoppeur fumée", pdf: "Rideau stoppeur fumée.pdf" },
-{ name: "Utilisation échelle à coulisse", pdf: "Utilisation échelle à coulisse.pdf" },
-{ name: "Détecteur multigaz", pdf: "Détecteur multigaz.pdf" },
-{ name: "Mise en place de l'éclairage", pdf: "Mise en place de l'éclairage.pdf" },
-{ name: "Pompe prélèvement", pdf: "Pompe prélèvement.pdf" },
+{ name: "Ventilation par entraînement d'air aux lances", pdf: "Ventilation par entraînement d'air aux lances.pdf" },{ name: "Pompe prélèvement", pdf: "Pompe prélèvement.pdf" },
 { name: "LSPCC-Progression horizontale", pdf: "LSPCC-Progression horizontale.pdf" },
 { name: "Ouverture de porte Halligan+masse", pdf: "Ouverture de porte Halligan+masse.pdf" },
 { name: "Envoyer un message de détresse", pdf: "Envoyer un message de détresse.pdf" },
@@ -223,39 +226,97 @@
 { name: "Compression d’un saignement de nez", pdf: "Compression d’un saignement de nez.pdf" },
 { name: "Installation d’une victime dans un VSAV", pdf: "Installation d’une victime dans un VSAV.pdf" },
 { name: "Utilisation des emballages à élimination de déchets", pdf: "Utilisation des emballages à élimination de déchets.pdf" },
-{ name: "Utilisation d'une tronçonneuse", pdf: "Utilisation d'une tronçonneuse.pdf" },
-{ name: "Mise en place d'un groupe électrogène", pdf: "Mise en place d'un groupe électrogène.pdf" },
+
+
 { name: "Aspiration avec MPE", pdf: "Aspiration avec MPE.pdf" },
 { name: "Aspiration avec pompe électrique", pdf: "Aspiration avec pompe électrique.pdf" },
 { name: "Capture de serpent", pdf: "Capture de serpent.pdf" },
 { name: "Capture d'animaux au moyen du lasso", pdf: "Capture d'animaux au moyen du lasso.pdf" },
-{ name: "Assèchement avec aspirateur", pdf: "Assèchement avec aspirateur.pdf" },*/
-  // Ajoutez plus de techniques selon vos besoins
-          ];
-  
-          let technique = genererTechnique()
-  
-          function genererTechnique() {
-              const nombre = Math.floor(Math.random() * techniques.length);
-              return techniques[nombre];
-          }
-  
-          genererTechnique();
-  </script>
-  
-  <main>
-    <h1>Générateur de Technique</h1>
-    <div class="container">
-      <div class="text">
-        <p>Cliquez sur le bouton pour générer une technique</p>
+{ name: "Assèchement avec aspirateur", pdf: "Assèchement avec aspirateur.pdf" },
+
+    Exemple d'ajout de document
+    {
+      name: "Mise en place d'un groupe électrogène",
+      pdf: "Mise en place d'un groupe électrogène.pdf",
+      image: "image1.jpg",
+      video: "video1.mp4",
+      iframe: "https://www.youtube.com/embed/aydVCwnWJII?si=GvSX5WT_lSbVdUKH",
+      documents: [
+        { name: "Document 1", url: "document1.pdf" },
+        { name: "Document 2", url: "document2.pdf" }
+      ]
+    },
+    */
+    // Ajoutez plus de techniques selon vos besoins
+  ];
+
+  let technique = genererTechnique();
+
+function genererTechnique() {
+  const nombre = Math.floor(Math.random() * techniques.length);
+  return techniques[nombre];
+}
+
+function genererNouvelleTechnique() {
+  technique = genererTechnique();
+}
+</script>
+
+<main>
+<h1>Générateur de Technique</h1>
+<div class="container">
+  <div class="text">
+    <p>Cliquez sur le bouton pour générer une technique</p>
+  </div>
+  <button on:click={genererNouvelleTechnique}>Générer</button>
+  <div class="result">
+    <h3>{technique.name}</h3>
+    {#if technique.pdf}
+      <a href={technique.pdf} target="_blank">Voir le PDF</a>
+    {/if}
+    {#if technique.image}
+      <div class="image">
+        <img src={technique.image} alt={technique.name} />
       </div>
-      <button on:click={() => { technique = genererTechnique(); }}>Générer</button>
-      <div class="result">
-        <p>{technique.name}</p>
-        <a href="{technique.pdf}" target="_blank">Voir le PDF</a>
+    {/if}
+    {#if technique.video}
+      <div class="video">
+        <video controls>
+          <source src={technique.video} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </div>
-    </div>
-    <div class="mail">
-      <a href="mailto:plbd@laposte.net">Suggérer une amélioration ?</a>
-    </div>
-  </main>
+    {/if}
+    {#if technique.iframe}
+      <div class="iframe">
+        <iframe src={technique.iframe} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    {/if}
+    {#if technique.documents}
+      <div class="documents">
+        <h5>Documents supplémentaires :</h5>
+        <ul>
+          {#each technique.documents as doc}
+            <li><a href={doc.url} target="_blank">{doc.name}</a></li>
+          {/each}
+        </ul>
+      </div>
+    {/if}
+  </div>
+</div>
+<div class="mail">
+  <a href="mailto:plbd@laposte.net">Suggérer une amélioration ?</a>
+</div>
+</main>
+
+<style>
+/* Ajoutez vos styles ici */
+.iframe {
+  margin-top: 1em;
+}
+
+iframe {
+  width: 100%;
+  height: 315px;
+}
+</style>
