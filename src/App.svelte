@@ -2,7 +2,6 @@
   const techniques = [
 { name: "explosimetre", url: "https://extranet.sdis37.fr/jcms/jcms/mig_2347135/fit-79-inc-explosimetre-toximetre-msa-altair-4x-4xr-ex-co-h2s?details=true"},
 { name: "batfan", url: "https://extranet.sdis37.fr/jcms/jcms/mig_2411835/fit-189-inc-ventilateur-sur-batterie-batfan?details=true"}
-/*
     { name: "Utilisation du halligan-tool", 
       pdf: "Utilisation du halligan-tool sdis37.pdf",
     documents: [
@@ -178,7 +177,7 @@
   { name: "Utilisation de la pompe de l'explosimètre Altair 4X", pdf: "Utilisation de la pompe de l'explosimètre Altair 4X.pdf" },
   { name: "Rideau stoppeur de fumée", pdf: "Rideau stoppeur de fumée.pdf" },
   { name: "Utilisation des lances", pdf: "Utilisation des lances.pdf" },
-
+/*
   { name: "Echelle 1 plan téléscopique", pdf: "Echelle 1 plan téléscopique.pdf" },
   { name: "Tuyaux avec réserve en spirale", pdf: "Tuyaux avec réserve en spirale.pdf" },
   { name: "Detecteur CO", pdf: "Detecteur CO.pdf" },
