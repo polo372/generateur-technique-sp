@@ -1,7 +1,7 @@
 <script lang="ts">
   const techniques = [
 { name: "explosimetre", url: "https://extranet.sdis37.fr/jcms/jcms/mig_2347135/fit-79-inc-explosimetre-toximetre-msa-altair-4x-4xr-ex-co-h2s?details=true"},
-{ name: "batfan", url: "https://extranet.sdis37.fr/jcms/jcms/mig_2411835/fit-189-inc-ventilateur-sur-batterie-batfan?details=true"}
+{ name: "batfan", url: "https://extranet.sdis37.fr/jcms/jcms/mig_2411835/fit-189-inc-ventilateur-sur-batterie-batfan?details=true"},
     { name: "Utilisation du halligan-tool", 
       pdf: "Utilisation du halligan-tool sdis37.pdf",
     documents: [
