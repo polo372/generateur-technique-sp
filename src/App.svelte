@@ -264,51 +264,57 @@ function genererNouvelleTechnique() {
 }
 </script>
 
+
 <main>
-<h1>Générateur de Technique</h1>
-<div class="container">
-  <div class="text">
-    <p>Cliquez sur le bouton pour générer une technique</p>
+  <h1>Générateur de Technique</h1>
+  <div class="container">
+    <div class="text">
+      <p>Cliquez sur le bouton pour générer une technique</p>
+    </div>
+    <button on:click={genererNouvelleTechnique}>Générer</button>
+    <div class="result">
+      <h3>{technique.name}</h3>
+      {#if technique.pdf}
+        <a href={technique.pdf} target="_blank">Voir le PDF</a>
+      {/if}
+      {#if technique.image}
+        <div class="image">
+          <img src={technique.image} alt={technique.name} />
+        </div>
+      {/if}
+      {#if technique.video}
+        <div class="video">
+          <video controls>
+            <source src={technique.video} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      {/if}
+      {#if technique.iframe}
+        <div class="iframe">
+          <iframe src={technique.iframe} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      {/if}
+      {#if technique.url}
+        <p>
+          <a href={technique.url} target="_blank">Plus d'infos</a>
+        </p>
+      {/if}
+      {#if technique.documents}
+        <div class="documents">
+          <h5>Documents supplémentaires :</h5>
+          <ul>
+            {#each technique.documents as doc}
+              <li><a href={doc.url} target="_blank">{doc.name}</a></li>
+            {/each}
+          </ul>
+        </div>
+      {/if}
+    </div>
   </div>
-  <button on:click={genererNouvelleTechnique}>Générer</button>
-  <div class="result">
-    <h3>{technique.name}</h3>
-    {#if technique.pdf}
-      <a href={technique.pdf} target="_blank">Voir le PDF</a>
-    {/if}
-    {#if technique.image}
-      <div class="image">
-        <img src={technique.image} alt={technique.name} />
-      </div>
-    {/if}
-    {#if technique.video}
-      <div class="video">
-        <video controls>
-          <source src={technique.video} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-      </div>
-    {/if}
-    {#if technique.iframe}
-      <div class="iframe">
-        <iframe src={technique.iframe} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-    {/if}
-    {#if technique.documents}
-      <div class="documents">
-        <h5>Documents supplémentaires :</h5>
-        <ul>
-          {#each technique.documents as doc}
-            <li><a href={doc.url} target="_blank">{doc.name}</a></li>
-          {/each}
-        </ul>
-      </div>
-    {/if}
+  <div class="mail">
+    <a href="mailto:plbd@laposte.net">Suggérer une amélioration ?</a>
   </div>
-</div>
-<div class="mail">
-  <a href="mailto:plbd@laposte.net">Suggérer une amélioration ?</a>
-</div>
 </main>
 
 <style>
