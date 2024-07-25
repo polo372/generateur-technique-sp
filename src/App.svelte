@@ -196,7 +196,6 @@
   { name: "Déshabiller un sauveteur inconscient en tenue de feu", pdf: "Déshabiller un sauveteur inconscient en tenue de feu.pdf" },
   { name: "Extinction d'un feu de VL nouvelle énergie", pdf:"Extinction d'un feu de VL nouvelle énergie" },
   { name: "Utilisation d'une tronçonneuse", pdf: "Utilisation d'une tronçonneuse.pdf" },
-
 /*
 { name: "Transfert d’une victime méthode de la cuillère", pdf: "Transfert d’une victime méthode de la cuillère.pdf" },
 { name: "Position d’attente assise ou demi-assise", pdf: "Position d’attente.pdf" },
