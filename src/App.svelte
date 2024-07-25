@@ -1,5 +1,7 @@
 <script lang="ts">
   const techniques = [
+{ name: "essai", url: "https://extranet.sdis37.fr/jcms/jcms/mig_2347135/fit-79-inc-explosimetre-toximetre-msa-altair-4x-4xr-ex-co-h2s?details=true"},
+/*
     { name: "Utilisation du halligan-tool", 
       pdf: "Utilisation du halligan-tool sdis37.pdf",
     documents: [
@@ -197,7 +199,7 @@
   { name: "Extinction d'un feu de VL nouvelle énergie", pdf:"Extinction d'un feu de VL nouvelle énergie" },
   { name: "Utilisation d'une tronçonneuse", pdf: "Utilisation d'une tronçonneuse.pdf" },
 
-/*
+
 { name: "Transfert d’une victime méthode de la cuillère", pdf: "Transfert d’une victime méthode de la cuillère.pdf" },
 { name: "Position d’attente assise ou demi-assise", pdf: "Position d’attente.pdf" },
 { name: "Position d’attente sur le côté", pdf: "Position d’attente.pdf" },
