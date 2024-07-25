@@ -1,5 +1,7 @@
 <script lang="ts">
   const techniques = [
+{ name: "explosimetre", url: "https://extranet.sdis37.fr/jcms/jcms/mig_2347135/fit-79-inc-explosimetre-toximetre-msa-altair-4x-4xr-ex-co-h2s?details=true"},
+{ name: "batfan", url: "https://extranet.sdis37.fr/jcms/jcms/mig_2411835/fit-189-inc-ventilateur-sur-batterie-batfan?details=true"},
     { name: "Utilisation du halligan-tool", 
       pdf: "Utilisation du halligan-tool sdis37.pdf",
     documents: [
@@ -175,7 +177,7 @@
   { name: "Utilisation de la pompe de l'explosimètre Altair 4X", pdf: "Utilisation de la pompe de l'explosimètre Altair 4X.pdf" },
   { name: "Rideau stoppeur de fumée", pdf: "Rideau stoppeur de fumée.pdf" },
   { name: "Utilisation des lances", pdf: "Utilisation des lances.pdf" },
-
+/*
   { name: "Echelle 1 plan téléscopique", pdf: "Echelle 1 plan téléscopique.pdf" },
   { name: "Tuyaux avec réserve en spirale", pdf: "Tuyaux avec réserve en spirale.pdf" },
   { name: "Detecteur CO", pdf: "Detecteur CO.pdf" },
@@ -196,7 +198,8 @@
   { name: "Déshabiller un sauveteur inconscient en tenue de feu", pdf: "Déshabiller un sauveteur inconscient en tenue de feu.pdf" },
   { name: "Extinction d'un feu de VL nouvelle énergie", pdf:"Extinction d'un feu de VL nouvelle énergie" },
   { name: "Utilisation d'une tronçonneuse", pdf: "Utilisation d'une tronçonneuse.pdf" },
-/*
+
+
 { name: "Transfert d’une victime méthode de la cuillère", pdf: "Transfert d’une victime méthode de la cuillère.pdf" },
 { name: "Position d’attente assise ou demi-assise", pdf: "Position d’attente.pdf" },
 { name: "Position d’attente sur le côté", pdf: "Position d’attente.pdf" },
@@ -261,51 +264,57 @@ function genererNouvelleTechnique() {
 }
 </script>
 
+
 <main>
-<h1>Générateur de Technique</h1>
-<div class="container">
-  <div class="text">
-    <p>Cliquez sur le bouton pour générer une technique</p>
+  <h1>Générateur de Technique</h1>
+  <div class="container">
+    <div class="text">
+      <p>Cliquez sur le bouton pour générer une technique</p>
+    </div>
+    <button on:click={genererNouvelleTechnique}>Générer</button>
+    <div class="result">
+      <h3>{technique.name}</h3>
+      {#if technique.pdf}
+        <a href={technique.pdf} target="_blank">Voir le PDF</a>
+      {/if}
+      {#if technique.image}
+        <div class="image">
+          <img src={technique.image} alt={technique.name} />
+        </div>
+      {/if}
+      {#if technique.video}
+        <div class="video">
+          <video controls>
+            <source src={technique.video} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      {/if}
+      {#if technique.iframe}
+        <div class="iframe">
+          <iframe src={technique.iframe} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      {/if}
+      {#if technique.url}
+        <p>
+          <a href={technique.url} target="_blank">Plus d'infos</a>
+        </p>
+      {/if}
+      {#if technique.documents}
+        <div class="documents">
+          <h5>Documents supplémentaires :</h5>
+          <ul>
+            {#each technique.documents as doc}
+              <li><a href={doc.url} target="_blank">{doc.name}</a></li>
+            {/each}
+          </ul>
+        </div>
+      {/if}
+    </div>
   </div>
-  <button on:click={genererNouvelleTechnique}>Générer</button>
-  <div class="result">
-    <h3>{technique.name}</h3>
-    {#if technique.pdf}
-      <a href={technique.pdf} target="_blank">Voir le PDF</a>
-    {/if}
-    {#if technique.image}
-      <div class="image">
-        <img src={technique.image} alt={technique.name} />
-      </div>
-    {/if}
-    {#if technique.video}
-      <div class="video">
-        <video controls>
-          <source src={technique.video} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-      </div>
-    {/if}
-    {#if technique.iframe}
-      <div class="iframe">
-        <iframe src={technique.iframe} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-    {/if}
-    {#if technique.documents}
-      <div class="documents">
-        <h5>Documents supplémentaires :</h5>
-        <ul>
-          {#each technique.documents as doc}
-            <li><a href={doc.url} target="_blank">{doc.name}</a></li>
-          {/each}
-        </ul>
-      </div>
-    {/if}
+  <div class="mail">
+    <a href="mailto:plbd@laposte.net">Suggérer une amélioration ?</a>
   </div>
-</div>
-<div class="mail">
-  <a href="mailto:plbd@laposte.net">Suggérer une amélioration ?</a>
-</div>
 </main>
 
 <style>
