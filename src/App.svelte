@@ -1,15 +1,14 @@
 <script lang="ts">
   const techniques = [
-{ name: "explosimetre", url: "https://extranet.sdis37.fr/jcms/jcms/mig_2347135/fit-79-inc-explosimetre-toximetre-msa-altair-4x-4xr-ex-co-h2s?details=true"},
 { name: "batfan", url: "https://extranet.sdis37.fr/jcms/jcms/mig_2411835/fit-189-inc-ventilateur-sur-batterie-batfan?details=true"},
     { name: "Utilisation du halligan-tool", 
-      pdf: "Utilisation du halligan-tool sdis37.pdf",
+      url:"https://extranet.sdis37.fr/jcms/jcms/1401_DBFileDocument/fit-055-inc-outil-de-forcement-halligan-tool?details=true",
     documents: [
         { name: "Halligan Tool", url: "Halligan Tool.pdf" }
       ]
      },
   { name: "Mise en place d'un groupe électrogène", iframe: "https://www.youtube.com/embed/aydVCwnWJII?si=GvSX5WT_lSbVdUKH" },
-  { name: "Aspiration du bache à incendie", iframe: "https://youtu.be/WI0d4eRLuxM?si=-kJP-bDTM8jo8q6j" },
+  { name: "Aspiration du bache à incendie", iframe: "https://www.youtube.com/embed/WI0d4eRLuxM?si=SdvN1LFSw5SDQSKq" },
   { name: "ETB1-Ldt", pdf: "ETB1-Ldt.pdf" },
   { name: "ETB2-Prise d'eau", pdf: "ETB2-Prise d'eau.pdf" },
   { name: "ETB3-Lance", pdf: "ETB3-Lance.pdf" },
@@ -97,7 +96,7 @@
   { name: "LVA victime non traumatisée", pdf: "LVA victime non traumatisée.pdf" },
   { name: "LVA victime traumatisée", pdf: "LVA victime traumatisée.pdf" },
   { name: "Mise en place d’une canule oropharyngée", pdf: "Mise en place d’une canule oropharyngée.pdf" },
-  { name: "Pose d’un pansement compressif (israélien)", pdf: "Pose d’un pansement compressif (israélien).pdf" },
+  { name: "Pose d’un pansement compressif (israélien)", pdf: "Pose d’un pansement compressif (israélien).pdf", iframe: "https://www.youtube.com/embed/7G0jN--29bI?si=omYHBr3C3bKfA5pP" },
   { name: "Utilisation du DAE", pdf: "Utilisation du DAE.pdf" },
   { name: "Ventilation artificielle orale (adulte, enfant)", pdf: "Ventilation artificielle orale.pdf" },
   { name: "Ventilation artificielle orale (nourrisson, nouveau-né)", pdf: "Ventilation artificielle orale.pdf" },
@@ -148,9 +147,9 @@
   { name: "Installation d’une victime dans un VSAV", pdf: "Installation d’une victime dans un VSAV.pdf" },
   { name: "Préparation d'un dispositif de portage", pdf: "Préparation d'un dispositif de portage.pdf" },
   { name: "Relevage au moyen d’un brancard cuillère", pdf: "Relevage au moyen d’un brancard cuillère.pdf" },
-  { name: "Pont amélioré", pdf: "Pont à 4 sauveteurs.pdf" },
+  { name: "Pont amélioré", pdf: "Pont à 4 sauveteurs.pdf", iframe: "https://www.youtube.com/embed/-5hCOq5GEm4?si=eVsSGpHKqmA6K0V4" },
   { name: "Pont néerlandais à 4 sauveteurs", pdf: "Pont à 4 sauveteurs.pdf" },
-  { name: "Pont simple", pdf: "Pont à 3 sauveteurs.pdf" },
+  { name: "Pont simple", pdf: "Pont à 3 sauveteurs.pdf", iframe: "https://www.youtube.com/embed/dGmoJ9KGauA?si=S0-_Zhx5VPBhgvze" },
   { name: "Pont néerlandais à 3 sauveteurs", pdf: "Pont à 3 sauveteurs.pdf" },
   { name: "Relevage d’une victime plat dos, cuisses fléchies", pdf: "Relevage d’une victime particuliere.pdf" },
   { name: "Relevage d’une victime en PLS", pdf: "Relevage d’une victime particuliere.pdf" },
@@ -171,12 +170,13 @@
   { name: "Balisage sur rond point", pdf: "Balisage sur rond point.pdf" },
   { name: "Balisage sur voies bidirectionnelles", pdf: "Balisage sur voies bidirectionnelles.pdf" },
   { name: "Balisage sur voies unidirectionnelles", pdf: "Balisage sur voies unidirectionnelles.pdf" },
-  { name: "Utilisation des balises lumineuses", pdf: "Utilisation des balises lumineuses.pdf" },
-  { name: "Utilisation des sangles rhinoevac", pdf: "Utilisation des sangles rhinoevac.pdf" },
-  { name: "Utilisation de l'explosimètre Altair 4X", pdf: "Utilisation de l'explosimètre Altair 4X.pdf" },
-  { name: "Utilisation de la pompe de l'explosimètre Altair 4X", pdf: "Utilisation de la pompe de l'explosimètre Altair 4X.pdf" },
-  { name: "Rideau stoppeur de fumée", pdf: "Rideau stoppeur de fumée.pdf" },
+  { name: "Utilisation des balises lumineuses", url: "https://extranet.sdis37.fr/jcms/jcms/mig_2420850/fit-180-inc-balises-de-signalisation-lumineuses-flashcodes?details=true" },
+  { name: "Utilisation des sangles rhinoevac", url: "https://extranet.sdis37.fr/jcms/jcms/mig_2419175/fit-188-inc-sangle-multifonction-rhino-evac?details=true" },
+  { name: "Utilisation de l'explosimètre Altair 4X",  url: "https://extranet.sdis37.fr/jcms/jcms/mig_2347135/fit-79-inc-explosimetre-toximetre-msa-altair-4x-4xr-ex-co-h2s?details=true" },
+  { name: "Utilisation de la pompe de l'explosimètre Altair 4X", url: "https://extranet.sdis37.fr/jcms/jcms/mig_2347136/fit-80-inc-pompe-explosimetre-toximetre-msa-4x-4xr?details=true" },
+  { name: "Rideau stoppeur de fumée", url:"https://extranet.sdis37.fr/jcms/jcms/mig_2337590/fit-149-inc-rideau-stoppeur-de-fumees-v2-rsf?details=true" },
   { name: "Utilisation des lances", pdf: "Utilisation des lances.pdf" },
+  { name: "Utilisation du détécteur monoxyde de carbone", url: "https://extranet.sdis37.fr/jcms/jcms/1370_DBFileDocument/fit-88-inc-msa-detecteur-co?details=true"}
 /*
   { name: "Echelle 1 plan téléscopique", pdf: "Echelle 1 plan téléscopique.pdf" },
   { name: "Tuyaux avec réserve en spirale", pdf: "Tuyaux avec réserve en spirale.pdf" },
