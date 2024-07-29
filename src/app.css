@@ -72,6 +72,15 @@ button:focus-visible {
   font-size: 150%;
 
 }
+.category {
+  margin: 10px;
+  display: inline-block;
+}
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .mail{
   margin-top: 10%;
 }
