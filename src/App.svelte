@@ -246,7 +246,7 @@ import { onMount } from 'svelte';
   ];
 
  
-  let categories = ["TOUT", "INC", "SAP", "DIV", "BAL", "FDF"];
+  let categories = [ "INC", "SAP", "DIV", "BAL", "FDF"];
   let selectedCategories = new Set();
   let result = null;
 
