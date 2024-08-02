@@ -962,6 +962,7 @@
           Math.floor(Math.random() * selectedTechniques.length)
         ];
     } else {
+      alert("Veuillez sélectionner au moins une catégorie avant de générer")
       result = null;
     }
   }
