@@ -870,6 +870,95 @@
       pdf: "Utilisation d'une tronçonneuse.pdf",
       category: "DIV",
     },
+    {
+      name: "habillage NRBC",
+      url: "https://extranet.sdis37.fr/jcms/jcms/prod_2088674/habillage-epi-nrbc?details=true",
+      category: "RCH",
+    },
+    {
+      name: "conductimetre",
+      url: "https://extranet.sdis37.fr/jcms/jcms/prod_2048472/fiche-cond-315-i?details=true",
+      category: "RCH",
+    },
+    {
+      name: "Leve plaque et tampon d'égout",
+      url: "https://extranet.sdis37.fr/jcms/jcms/prod_2048476/fit-leve-plaques-vap-37?details=true",
+      category: "RCH",
+    },
+    {
+      name: "Tenue GR Type1",
+      url: "https://extranet.sdis37.fr/jcms/jcms/prod_2048477/fit-scaphandre-gr-iii-sol-3?details=true",
+      category: "RCH",
+    },
+    {
+      name: "Kit infectieux contagieux",
+      url: "https://extranet.sdis37.fr/jcms/jcms/prod_2048478/fit-027-sap-utilisation-du-kit-risque-infectuex-contagieux?details=true",
+      category: "RCH",
+    },
+    {
+      name: "Mise en place de la douche",
+      url: "https://extranet.sdis37.fr/jcms/jcms/prod_2048481/fit-094-rch-douche-individuelle?details=true",
+      category: "RCH",
+    },
+    {
+      name: "Utilisation de l'explosimètre Altair 4X",
+      url: "https://extranet.sdis37.fr/jcms/jcms/mig_2347135/fit-79-inc-explosimetre-toximetre-msa-altair-4x-4xr-ex-co-h2s?details=true",
+      category: "RCH",
+    },
+    {
+      name: "Utilisation de la pompe de l'explosimètre Altair 4X",
+      url: "https://extranet.sdis37.fr/jcms/jcms/mig_2347136/fit-80-inc-pompe-explosimetre-toximetre-msa-4x-4xr?details=true",
+      category: "RCH",
+    },
+    {
+      name: "Mise en place d'un SAS",
+      url: "https://extranet.sdis37.fr/jcms/jcms/prod_2068008/fit-14-bache-pour-sas-decontamination?details=true",
+      category: "RCH",
+    },
+    {
+      name: "Le zonage en rch",
+      url: "https://extranet.sdis37.fr/jcms/jcms/prod_2068009/fpo-13-mise-en-place-d-un-chantier-risque-chimique?details=true",
+      category: "RCH",
+    },
+    {
+      name: "Le lot PRV",
+      url: "https://extranet.sdis37.fr/jcms/jcms/mig_2373998/fit-caisse-prv?details=true",
+      category: "RCH",
+    },
+    {
+      name: "Utilisation de l'AP2C",
+      documents: [
+        { name: "Utilisation de l'appareil", url: "https://extranet.sdis37.fr/jcms/jcms/prod_2048376/v1-ap2c?details=true" },
+        { name: "Arbre de décision", url: "https://extranet.sdis37.fr/jcms/jcms/prod_2048471/arbre-decision-toxique-de-guerre-format-excel?details=true" }
+      ],
+      category: "RCH",
+    },
+    {
+      name: "Utilisation du detecteur CMS",
+      url: "https://extranet.sdis37.fr/jcms/jcms/prod_2048377/v1-detecteur-cms?details=true",
+      category: "RCH",
+    },
+    {
+      name: "Utilisation des lances queue de paon",
+      url: "https://extranet.sdis37.fr/jcms/jcms/prod_2048381/v1-lances-queue-de-paon?details=true",
+      category: "RCH",
+    },
+    {
+      name: "Utilisation de la pompe à membrane",
+      url: "https://extranet.sdis37.fr/jcms/jcms/prod_2048385/v1-pompe-a-membrane?details=true",
+      category: "RCH",
+    },
+    {
+      name: "Procédure acétylene",
+      url: "https://extranet.sdis37.fr/jcms/jcms/1480_DBFileDocument/fpo-027-rch-procedure-d-intervention-impliquant-une-bouteille-d-acetylene-v2?details=true",
+      category: "RCH",
+    },
+    {
+      name: "Obturation d'une citerne",
+      url: "https://extranet.sdis37.fr/jcms/jcms/prod_2048376/v1-ap2c?details=true",
+      category: "RCH",
+    },
+    
     /*{ name: "Tuyaux avec réserve en spirale", pdf: "Tuyaux avec réserve en spirale.pdf" },
 { name: "batfan", url: "https://extranet.sdis37.fr/jcms/jcms/mig_2411835/fit-189-inc-ventilateur-sur-batterie-batfan?details=true"},
   
@@ -927,7 +1016,7 @@
     // Ajoutez plus de techniques selon vos besoins
   ];
 
-  let categories = ["TOUTES", "INC", "SAP", "DIV", "BAL", "FDF"];
+  let categories = ["TOUTES", "INC", "SAP", "DIV", "BAL", "FDF", "RCH"];
   let selectedCategories: Array<string> = [];
   let result = null;
 
