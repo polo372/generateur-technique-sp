@@ -236,7 +236,7 @@
     {
       name: "LSPCC-Reconnaissance d'appartement",
       pdf: "LSPCC-Reconnaissance d'appartement.pdf",
-      category: "DIV",
+      category: "PPABE",
     },
     {
       name: "Décontamination aux fumées d'incendie",
@@ -764,22 +764,22 @@
     {
       name: "Balisage en virage",
       pdf: "Balisage en virage.pdf",
-      category: "BAL",
+      category: "SR",
     },
     {
       name: "Balisage sur rond point",
       pdf: "Balisage sur rond point.pdf",
-      category: "BAL",
+      category: "SR",
     },
     {
       name: "Balisage sur voies bidirectionnelles",
       pdf: "Balisage sur voies bidirectionnelles.pdf",
-      category: "BAL",
+      category: "SR",
     },
     {
       name: "Balisage sur voies unidirectionnelles",
       pdf: "Balisage sur voies unidirectionnelles.pdf",
-      category: "BAL",
+      category: "SR",
     },
     {
       name: "Utilisation des balises lumineuses",
@@ -818,7 +818,7 @@
     {
       name: "Secours éléctrique du CIS",
       url: "https://extranet.sdis37.fr/jcms/jcms/1580_DBFileDocument/fit-142-div-secours-electrique-cis?details=true",
-      category: "DIV",
+      category: "PPABE",
     },
     {
       name: "Mise en place du pédimat",
@@ -863,12 +863,12 @@
     {
       name: "Communication opérationnel-utilisation des radios",
       url: "https://extranet.sdis37.fr/jcms/jcms/mig_2276244/fpo-61-div-communication-radio-chef-d-agres-et-binomes?details=true",
-      category: "DIV",
+      category: "PPABE",
     },
     {
       name: "Utilisation d'une tronçonneuse",
       pdf: "Utilisation d'une tronçonneuse.pdf",
-      category: "DIV",
+      category: "PPABE",
     },
     {
       name: "habillage NRBC",
@@ -958,29 +958,132 @@
       url: "https://extranet.sdis37.fr/jcms/jcms/prod_2048376/v1-ap2c?details=true",
       category: "RCH",
     },
-    
-    /*{ name: "Tuyaux avec réserve en spirale", pdf: "Tuyaux avec réserve en spirale.pdf" },
+    { 
+      name: "L’établissement d’une lance 500 /d’une prise d’eau jusqu’à 120 mètres", 
+      pdf: "etablissement d’une lance 500 (FDF).pdf",
+      category: "FDF", 
+    },
+    { 
+      name: "Etablissement de la LDT", 
+      pdf: "Etablissement de la LDT (FDF).pdf",
+      category: "FDF", 
+    },
+    { 
+      name: "La transformation d’une lance 500 en 2 lances 150 sans prolongement", 
+      pdf: "La transformation d’une lance 500 en 2 lances 150 sans prolongement (FDF).pdf",
+      category: "FDF", 
+    },
+    { 
+      name: "Tuyaux avec réserve en spirale",
+      pdf: "Tuyaux avec réserve en spirale.pdf",
+      category: "INC", 
+    },
+    { 
+      name: "Le repli d'urgence",
+      pdf: "Le repli d'urgence (FDF).pdf",
+      category: "FDF", 
+    },
+    {
+      name: "Le prolongement d’une lance 500",
+      pdf: "Le prolongement d’une lance 500 (FDF).pdf",
+      category: "FDF",
+    },
+    { 
+      name: "La transformation d’une lance 500 en 2 lances 150 après prolongement",
+      pdf: "La transformation d’une lance 500 en 2 lances 150 après prolongement (FDF).pdf",
+      category: "FDF",
+    },
+    { 
+      name: "Déshabiller un sauveteur inconscient en tenue de feu", 
+      pdf: "Déshabiller un sauveteur inconscient en tenue de feu.pdf",
+      category: "INC",
+    },
+    { name: "Extinction d'un feu de VL nouvelle énergie", 
+      pdf:"Extinction d'un feu de VL nouvelle énergie.pdf",
+      documents: [{ name: "NDO IUV", url: "NDO IUV.pdf" }],
+      category: "INC",
+    },
+    { 
+      name: "Optimisation du dispositif de ventilation",
+      pdf: "Optimisation du dispositif de ventilation.pdf",
+      category: "INC",
+    },
+    { 
+      name: "Ventilation par entraînement d'air aux lances",
+      pdf: "Ventilation par entraînement d'air aux lances.pdf",
+      category: "INC",
+    },
+    {
+      name: "Usage de stoppeur de fumée",
+      pdf: "Usage de stoppeur de fumée.pdf",
+      category: "INC",
+    },
+    { 
+      name: "Gestion d'un message de détresse",
+      pdf: "Gestion d'un message de détresse.pdf",
+      category: "PPABE",
+    },
+    { 
+      name: "Technique de la voile",
+      iframe: "https://www.youtube.com/embed/8J2rKch35as?si=lS_15UsnDi0URn0Y",
+      category: "SR",
+    },
+    { 
+      name: "Le demi-pavillon latéral (ou charnière)",
+      iframe: "https://www.youtube.com/embed/ZnuzfLI_eac?si=tQMavRewSHu7qe4X",
+      url: "https://www.youtube.com/embed/ZzenJFV_Hqw?si=dZ3b6_lb8tIPpkb2",
+      category: "SR",
+    },
+    { 
+      name: "Le pavillon",
+      iframe: "https://www.youtube.com/embed/3YvsSsEJjoQ?si=CfxJwPYV0pahnPhS",
+      category: "SR",
+    },
+    { 
+      name: "Le demi-pavillon",
+      iframe: "https://www.youtube.com/embed/UNj0QyaSJ4A?si=Msvq_KO19SmzDy1S",
+      category: "SR",
+    },
+    { 
+      name: "Action sur les pédales",
+      iframe: "https://www.youtube.com/embed/2KS1VGHs8Qo?si=hPQb5NVSyfJwxjuJ",
+      category: "SR",
+    },
+    { 
+      name: "Ouverture coffre et capot",
+      iframe: "https://www.youtube.com/embed/5CjpaXkETCk?si=XBiluJ4XXFyODkW4",
+      category: "SR",
+    },
+    { 
+      name: "Reformation d'habitacle",
+      iframe: "https://www.youtube.com/embed/AF1nPsip3DI?si=vL8Ujy0IuAjgZz-D",
+      category: "SR",
+    },
+    { 
+      name: "Traverse du tableau de bord",
+      iframe: "https://www.youtube.com/embed/xL61eO772Es?si=gVQFJf0SLAGe1c23",
+      category: "SR",
+    },
+    { 
+      name: "Dépose d'une porte d'un véhucule utilitaire",
+      iframe: "https://www.youtube.com/embed/yGaLkCXSWMI?si=4Cq4Lnj7xUWfpPBZ",
+      category: "SR",
+    },
+    { 
+      name: "Entretien des outils de désincarcération après utilisation",
+      iframe: "https://www.youtube.com/embed/N7tFoW7ktOE?si=Ty5VT8fYTyaqP8C1",
+      category: "SR",
+    },
+    /*
 { name: "batfan", url: "https://extranet.sdis37.fr/jcms/jcms/mig_2411835/fit-189-inc-ventilateur-sur-batterie-batfan?details=true"},
-  
-  { name: "Le repli d'urgence (FDF)", pdf: "Le repli d'urgence (FDF).pdf" },
-  { name: "Etablissement de la LDT (FDF)", pdf: "Etablissement de la LDT (FDF).pdf" },
-  { name: "L’établissement d’une lance 500 /d’une prise d’eau jusqu’à 120 mètres (FDF)", pdf: "etablissement d’une lance 500 (FDF).pdf" },
-  { name: "La transformation d’une lance 500 en 2 lances 150 sans prolongement (FDF)", pdf: "La transformation d’une lance 500 en 2 lances 150 sans prolongement (FDF).pdf" },
-  { name: "Le prolongement d’une lance 500 (FDF)", pdf: "Le prolongement d’une lance 500 (FDF).pdf" },
-  { name: "La transformation d’une lance 500 en 2 lances 150 après prolongement (FDF)", pdf: "La transformation d’une lance 500 en 2 lances 150 après prolongement (FDF).pdf" },
-  { name: "Déshabiller un sauveteur inconscient en tenue de feu", pdf: "Déshabiller un sauveteur inconscient en tenue de feu.pdf" },
-  { name: "Extinction d'un feu de VL nouvelle énergie", pdf:"Extinction d'un feu de VL nouvelle énergie" },
 
-{ name: "Optimisation du dispositif de ventilation", pdf: "Optimisation du dispositif de ventilation.pdf" },
-{ name: "Ventilation par entraînement d'air aux lances", pdf: "Ventilation par entraînement d'air aux lances.pdf" },{ name: "Pompe prélèvement", pdf: "Pompe prélèvement.pdf" },
+{ name: "Pompe prélèvement", pdf: "Pompe prélèvement.pdf" },
 { name: "LSPCC-Progression horizontale", pdf: "LSPCC-Progression horizontale.pdf" },
 { name: "Ouverture de porte Halligan+masse", pdf: "Ouverture de porte Halligan+masse.pdf" },
-{ name: "Envoyer un message de détresse", pdf: "Envoyer un message de détresse.pdf" },
 { name: "Utilisation TGR", pdf: "Utilisation TGR.pdf" },
 { name: "CCRM-Utilisation du chariot de balisage", pdf: "CCRM-Utilisation du chariot de balisage.pdf" },
 { name: "Utilisation d'un extincteur", pdf: "Utilisation d'un extincteur.pdf" },
 { name: "Accident d’exposition à un risque viral", pdf: "Accident d’exposition à un risque viral.pdf" },
-{ name: "Bilan d’urgence : XABCDE", pdf: "Bilan d’urgence : XABCDE.pdf" },
 { name: "Évaluer la motricité et la sensibilité", pdf: "Évaluer la motricité et la sensibilité.pdf" },
 { name: "Examiner les pupilles", pdf: "Examiner les pupilles.pdf" },
 { name: "Rechercher et apprécier le pouls carotidien", pdf: "Rechercher et apprécier le pouls carotidien.pdf" },
@@ -1016,7 +1119,7 @@
     // Ajoutez plus de techniques selon vos besoins
   ];
 
-  let categories = ["TOUTES", "INC", "SAP", "DIV", "BAL", "FDF"*/, "RCH"*/];
+  let categories = ["TOUTES", "INC", "SUAP", "PPABE", "SR", "FDF"];
   let selectedCategories: Array<string> = [];
   let result = null;
 
