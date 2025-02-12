@@ -490,11 +490,6 @@
       category: "SUAP",
     },
     {
-      name: "Contention pelvienne",
-      url: "https://extranet.sdis37.fr/jcms/jcms/mig_2444377/contention-pelvienne?details=true",
-      category: "SUAP",
-    },
-    {
       name: "Immobilisation d’un membre avec une attelle à dépression",
       url: "https://extranet.sdis37.fr/jcms/jcms/mig_2444431/pose-d-attelle-a-depression?details=true",
       category: "SUAP",
