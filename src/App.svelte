@@ -758,7 +758,10 @@
     },
     {
       name: "Utiisation du Rideau stoppeur de fumée",
-      pdf: "Rideau stoppeur de fumée.pdf",
+      documents: [
+        { name: "Rideau stoppeur de fumée", url: "Rideau stoppeur de fumée.pdf", },
+        { name: "Usage de stoppeur de fumée", url: "Usage de stoppeur de fumée.pdf", }
+      ],
       category: "INC",
     },
     {
@@ -967,11 +970,6 @@
     { 
       name: "Ventilation par entraînement d'air aux lances",
       pdf: "Ventilation par entraînement d'air aux lances.pdf",
-      category: "INC",
-    },
-    {
-      name: "Usage de stoppeur de fumée",
-      pdf: "Usage de stoppeur de fumée.pdf",
       category: "INC",
     },
     { 
