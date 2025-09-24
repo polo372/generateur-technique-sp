@@ -1060,7 +1060,7 @@
       category: "SR",
     },
     { 
-      name: "Dépose d'une porte d'un véhucule utilitaire",
+      name: "Dépose d'une porte d'un véhicule utilitaire",
       iframe: "https://www.youtube.com/embed/yGaLkCXSWMI?si=4Cq4Lnj7xUWfpPBZ",
       category: "SR",
     },
