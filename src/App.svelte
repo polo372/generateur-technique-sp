@@ -19,7 +19,7 @@
     },
     { name: "ETB1-Ldt", pdf: "ETB1-Ldt.pdf", category: "INC" },
     { name: "ETB2-Prise d'eau", pdf: "ETB2-Prise d'eau.pdf", category: "INC" },
-    { name: "ETB3-Lance", pdf: "ETB3-Lance.pdf", category: "INC"},
+    { name: "ETB3-Ligne d’attaque sur une prise d’eau", pdf: "ETB3-Lance.pdf", category: "INC"},
     { name: "ETB4-Alimentation", pdf: "ETB4-Alimentation.pdf", category: "INC"},
     { name: "ETB5-Etablissement particuliers", pdf: "ETB5-Etablissement particuliers.pdf", category: "INC"},
     { name: "ETB6-Prolongement/remplacement", pdf: "ETB6-Prolongement/remplacement.pdf", category: "INC" },
@@ -1080,7 +1080,7 @@
       category: "INC",
     },
     { 
-      name: "",
+      name: "Alerte évacuation générale",
       pdf: "Alerte évacuation générale.pdf",
       category: "INC",
     },
