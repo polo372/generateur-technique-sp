@@ -1114,7 +1114,7 @@
     // Ajoutez plus de techniques selon vos besoins
   ];
 
-  let categories = ["TOUTES", "INC", "SUAP1", "PPABE", "SR", "FDF"];
+  let categories = ["TOUTES", "INC", "SUAP", "PPABE", "SR", "FDF"];
   let selectedCategories: Array<string> = [];
   let result = null;
 
