@@ -15,61 +15,21 @@
     {
       name: "Aspiration sur une bache à incendie",
       iframe: "https://www.youtube.com/embed/WI0d4eRLuxM?si=SdvN1LFSw5SDQSKq",
-      category: "INC",
+      category: "INC"
     },
     { name: "ETB1-Ldt", pdf: "ETB1-Ldt.pdf", category: "INC" },
     { name: "ETB2-Prise d'eau", pdf: "ETB2-Prise d'eau.pdf", category: "INC" },
-    { name: "ETB3-Lance", pdf: "ETB3-Lance.pdf", category: "INC" },
-    {
-      name: "ETB4-Alimentation",
-      pdf: "ETB4-Alimentation.pdf",
-      category: "INC",
-    },
-    {
-      name: "ETB5-Etablissement particuliers",
-      pdf: "ETB5-Etablissement particuliers.pdf",
-      category: "INC",
-    },
-    {
-      name: "ETB6-Prolongement/remplacement",
-      pdf: "ETB6-Prolongement/remplacement.pdf",
-      category: "INC",
-    },
-    {
-      name: "TDE1-Refroidissement des fumées",
-      pdf: "TDE1-Refroidissement des fumées.pdf",
-      category: "INC",
-    },
-    {
-      name: "TDE2-Extinction directe",
-      pdf: "TDE2-Extinction directe.pdf",
-      category: "INC",
-    },
-    {
-      name: "TDE3-Extinction indirecte",
-      pdf: "TDE3-Extinction indirecte.pdf",
-      category: "INC",
-    },
-    {
-      name: "TDE4-Extinction combinée/massive",
-      pdf: "TDE4-Extinction combinée/massive.pdf",
-      category: "INC",
-    },
-    {
-      name: "TDE5-Situation pre-backdraft",
-      pdf: "TDE5-Situation pre-backdraft.pdf",
-      category: "INC",
-    },
-    {
-      name: "TDE6-Repli sous protection hydraulique",
-      pdf: "TDE6-Repli sous protection hydraulique.pdf",
-      category: "INC",
-    },
-    {
-      name: "TDE7-Feu soumis aux effets du vent et effet chalumeau",
-      pdf: "TDE7-Feu soumis aux effets du vent et effet chalumeau.pdf",
-      category: "INC",
-    },
+    { name: "ETB3-Lance", pdf: "ETB3-Lance.pdf", category: "INC"},
+    { name: "ETB4-Alimentation", pdf: "ETB4-Alimentation.pdf", category: "INC"},
+    { name: "ETB5-Etablissement particuliers", pdf: "ETB5-Etablissement particuliers.pdf", category: "INC"},
+    { name: "ETB6-Prolongement/remplacement", pdf: "ETB6-Prolongement/remplacement.pdf", category: "INC" },
+    { name: "TDE1-Refroidissement des fumées", pdf: "TDE1-Refroidissement des fumées.pdf",category: "INC"},
+    { name: "TDE2-Extinction directe", pdf: "TDE2-Extinction directe.pdf", category: "INC" },
+    { name: "TDE3-Extinction indirecte", pdf: "TDE3-Extinction indirecte.pdf", category: "INC" },
+    { name: "TDE4-Extinction combinée/massive", pdf: "TDE4-Extinction combinée/massive.pdf", category: "INC"},
+    { name: "TDE5-Situation pre-backdraft", pdf: "TDE5-Situation pre-backdraft.pdf", category: "INC"},
+    { name: "TDE6-Repli sous protection hydraulique", pdf: "TDE6-Repli sous protection hydraulique.pdf", category: "INC"},
+    { name: "TDE7-Feu soumis aux effets du vent et effet chalumeau", pdf: "TDE7-Feu soumis aux effets du vent et effet chalumeau.pdf", category: "INC"},
     {
       name: "TDE8-Attaque d'atténuation",
       pdf: "TDE8-Attaque d'atténuation.pdf",
