@@ -245,12 +245,12 @@
     },
     {
       name: "Retournement en urgence d’une victime à 2",
-      url: "https://extranet.sdis37.fr/jcms/jcms/mig_2444223/retournement-en-urgence-d-une-victime-a-1?details=true",
+      url: "Retournement en urgence d’une victime à 2.pdf",
       category: "SUAP",
     },
     {
       name: "Retournement en urgence d’une victime à 1",
-      url: "https://extranet.sdis37.fr/jcms/jcms/mig_2444445/retournement-en-urgence-d-une-victime-a-1?details=true",
+      url: "Retournement en urgence d’une victime à 1.pdf",
       category: "SUAP",
     },
     {
